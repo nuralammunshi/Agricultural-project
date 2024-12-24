@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar-nav a:hover{
+
+    background-color: rgb(255, 0, 0);
+}
+.navbar{
+    background: green !important;
+    padding: 20px;
+}
+.navbar-brand{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50%;
+}
+.navbar-nav li a{
+    color: aliceblue !important;
+    text-transform: uppercase;
+}
+span i{
+    color: red !important;
+}
+.footer_section{
+    background: green;
+    padding: 30px;
+
+
+}
+.footer_part{
+    margin-top: 2px;
+}
+.footer_section p{
+color: aliceblue;
+
+    
+}
+
+.form_group1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #0a9900;
+}
+
+.contact_form {
+    padding: 60px 0;
+}
+
+textarea {
+    margin-top: 15px;
+}
+
+.Contact_Heading{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.carousel-caption {
+    bottom: unset !important;
+    top: 25% !important;
+
+    
+}
